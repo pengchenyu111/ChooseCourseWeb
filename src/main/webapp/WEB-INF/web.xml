@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <display-name>CourseSelectionManagement</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+   <servlet>
+    <description></description>
+    <display-name>LoginServlet</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>cn.tedu.web.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ListAllCourseServlet</display-name>
+    <servlet-name>ListAllCourseServlet</servlet-name>
+    <servlet-class>cn.tedu.web.ListAllCourseServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ListAllCourseServlet</servlet-name>
+    <url-pattern>/listallcourse</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>StudentHomeServlet</display-name>
+    <servlet-name>StudentHomeServlet</servlet-name>
+    <servlet-class>cn.tedu.web.StudentHomeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>StudentHomeServlet</servlet-name>
+    <url-pattern>/studenthome</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>quitCourseServlet</display-name>
+    <servlet-name>quitCourseServlet</servlet-name>
+    <servlet-class>cn.tedu.web.quitCourseServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>quitCourseServlet</servlet-name>
+    <url-pattern>/quitcourse</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ChangePwdServlet</display-name>
+    <servlet-name>ChangePwdServlet</servlet-name>
+    <servlet-class>cn.tedu.web.ChangePwdServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ChangePwdServlet</servlet-name>
+    <url-pattern>/changepwd</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ChooseServlet</display-name>
+    <servlet-name>ChooseServlet</servlet-name>
+    <servlet-class>cn.tedu.web.ChooseServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ChooseServlet</servlet-name>
+    <url-pattern>/choose</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>TeacherServlet</display-name>
+    <servlet-name>TeacherServlet</servlet-name>
+    <servlet-class>cn.tedu.web.TeacherServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TeacherServlet</servlet-name>
+    <url-pattern>/teacher</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>SearchStu</display-name>
+    <servlet-name>SearchStu</servlet-name>
+    <servlet-class>cn.tedu.web.SearchStu</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SearchStu</servlet-name>
+    <url-pattern>/SearchStu</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>setGrade</display-name>
+    <servlet-name>setGrade</servlet-name>
+    <servlet-class>cn.tedu.web.setGrade</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>setGrade</servlet-name>
+    <url-pattern>/setgrade</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>setGradewithNo</display-name>
+    <servlet-name>setGradewithNo</servlet-name>
+    <servlet-class>cn.tedu.web.setGradewithNo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>setGradewithNo</servlet-name>
+    <url-pattern>/setGradewithNo</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>setGradewithNa</display-name>
+    <servlet-name>setGradewithNa</servlet-name>
+    <servlet-class>cn.tedu.web.setGradewithNa</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>setGradewithNa</servlet-name>
+    <url-pattern>/setGradewithNa</url-pattern>
+  </servlet-mapping>
+  
+ 
+  
+  
+  
+ 
+  
+  
+ 
+  
+  
+  <servlet>
+    <description></description>
+    <display-name>addTeacherServlet</display-name>
+    <servlet-name>addTeacherServlet</servlet-name>
+    <servlet-class>cn.tedu.web.addTeacherServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>addTeacherServlet</servlet-name>
+    <url-pattern>/addte</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <description></description>
+    <display-name>addCourseServlet</display-name>
+    <servlet-name>addCourseServlet</servlet-name>
+    <servlet-class>cn.tedu.web.addCourseServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>addCourseServlet</servlet-name>
+    <url-pattern>/addcourse</url-pattern>
+  </servlet-mapping>
+ 
+ 
+  <servlet>
+    <description></description>
+    <display-name>addStudentServlet</display-name>
+    <servlet-name>addStudentServlet</servlet-name>
+    <servlet-class>cn.tedu.web.addStudentServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>addStudentServlet</servlet-name>
+    <url-pattern>/addstudent</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <description></description>
+    <display-name>DeleteTeacherServlet</display-name>
+    <servlet-name>DeleteTeacherServlet</servlet-name>
+    <servlet-class>cn.tedu.web.DeleteTeacherServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteTeacherServlet</servlet-name>
+    <url-pattern>/del1</url-pattern>
+  </servlet-mapping>
+ 
+ 
+ 
+  <servlet>
+    <description></description>
+    <display-name>DeleteStudentServlet</display-name>
+    <servlet-name>DeleteStudentServlet</servlet-name>
+    <servlet-class>cn.tedu.web.DeleteStudentServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteStudentServlet</servlet-name>
+    <url-pattern>/del2</url-pattern>
+  </servlet-mapping>
+ 
+ 
+  <servlet>
+    <description></description>
+    <display-name>DeleteCourseServlet</display-name>
+    <servlet-name>DeleteCourseServlet</servlet-name>
+    <servlet-class>cn.tedu.web.DeleteCourseServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteCourseServlet</servlet-name>
+    <url-pattern>/del3</url-pattern>
+  </servlet-mapping>
+</web-app>

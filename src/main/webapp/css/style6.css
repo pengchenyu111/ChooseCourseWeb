@@ -1,0 +1,343 @@
+#header{
+    height: 100px	;
+    background-image: url("../images/stu_head.png");
+    background-repeat: repeat;
+    boder: 0;
+}
+.h_box1{
+    width: 100px;
+    height: 100px;
+    float: left;
+ } 
+ .h_box2{
+    color: white;
+    font-size: 150%;
+    width: 200px;
+    height: 100px;
+    float: left;
+    
+ }
+.h_box3{
+    color: white;
+    width: 300px;
+    height: 100px;
+    float: right;
+}
+#top_content{
+    /* border: 1px solid red; */
+    height: 500px;
+}
+#tea_info{
+    background-image: url("../images/stu_info_img.jpg");
+    /* border: 1px solid black; */
+    position: relative;
+    width: 20%;
+    height: 500px;
+    /* background-color: aquamarine; */
+    float: left;
+}
+#details{
+    /* border: 1px solid black; */
+   /*  position£ºabsolute; */
+    background-image: url("../images/stubackground.jpg");
+    position: relative;
+    width: 80%;
+    height: 500px;
+    float: right;
+    /*  background-color: black; */
+}
+#options{
+	position: relative;
+    background-image: url("../images/stu_info_img.jpg");
+    width: 100%; 
+    height: 300px;
+    background-color: rgb(240, 240, 240);
+    /* border: 1px solid black; */
+    text-align: center;
+}
+#stu_img{
+    width: 100px;
+    height: 100px;
+    background-image: url("../images/tou.png");
+    margin: auto;
+}
+#stu_info p{
+    background-color: rgb(226, 148, 59);
+    border: 1px solid white;
+}
+#footer{
+    background-image: url("../images/stu_bottom.png");
+    height:100px;
+    clear:both;
+    text-align:center;
+}  
+#options ul ~li{
+    height: 50px;
+}
+.tea_p{
+    color: rgb(99, 94, 94);
+}
+#tea_p1:hover{
+    color: lightblue;
+    cursor: pointer;
+    background-color: rgb(132, 133, 130);
+    font-size:16px;
+}
+#tea_p2:hover{
+    color: lightblue;
+    cursor: pointer;
+    background-color: rgb(132, 133, 130);
+    font-size:16px;
+}
+#tea_p3:hover{
+    color: lightblue;
+    cursor: pointer;
+    background-color: rgb(132, 133, 130);
+    font-size:16px;
+}
+#tea_p4:hover{
+    color: lightblue;
+    cursor: pointer;
+    background-color: rgb(132, 133, 130);
+    font-size:16px;
+}
+#tea_p5:hover{
+    color: red;
+    cursor: pointer;
+   /*  background-color: #ff0000; */
+}
+#tea_p5{
+	margin: 0px;
+}
+a{
+	text-decoration:none;
+}
+.tishi{
+	font-size: 16px;
+	font-family: 'ËÎÌå', 'Î¢ÈíÑÅºÚ';
+	border: 0px;
+	padding: 0px;
+	margin-left: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+/* #input1{
+	float: left;
+	margin-left: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+} */
+#input2{
+	float: left;
+	margin-left: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+/* #t_id1{
+	margin-top: 10px;
+	margin-bottom: 10px;
+} */
+#t_cla1{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.table{
+	margin-bottom: 15px;
+	width: 100%;
+	border-collapse: collapse;
+	
+}
+/* .table-cont{
+	margin-bottom: 15px;
+	width: 100%;
+	border-collapse: collapse;
+	
+} */
+table.scrollTable th,
+table.scrollTable td{
+	display: block;
+}
+.table_header{
+	padding: 5px 10px;
+	color: rgb(70,122,167);
+	border-top: 1px solid #CBD6DE;
+	border-bottom: 1px solid #ADBECB;
+	font-size: 1.1em;
+	font-weight: bold;
+	background: #eeeeee;
+}
+.row{
+	padding: 5px 10px;
+	color: #666666;
+	border: 1px solid #CBD6DE;
+}
+.row1 td, .row2 td, .row_hover td, .paging_row td {
+	padding: 5px 10px;
+	color: #666666;
+	border: 1px solid #CBD6DE;
+}
+.row1 td {
+	background: #ffffff;
+}
+td
+{
+    text-align:center;
+}
+.row2 td {
+	background: #eeeeee;
+}
+table, td, th {
+    border: 1px solid grey;
+}
+#grade1{
+	position: relative;
+	height: 10%;
+	weight: 100%;
+}
+#grade2{
+	position: relative;
+	height: 85%;
+	weight: 100%;
+}
+#grade3{
+	position: relative;
+	height: 5%;
+	weight: 100%;
+}
+#sub1{
+	position: relative;
+	/* float: central; */
+	/* padding: 20px; */
+	margin: auto;
+	font-size: 16px;
+}
+#buchong1{
+	position: relative;
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+/* .table>tbody>tr:nth-child(odd){
+	background: #fff;
+}
+.table>tbody>tr:nth-child(even){
+	background: #f7f7f7;
+} */
+/* .table>tbody>tr:hover{
+	background: #e3ecfc;
+} */
+#t_p1{
+	/* background-color: red; */
+	font-size: 24px;
+}
+#kong{
+	position: relative;
+	height: 5%;
+}
+li {
+	list-style-type:none;
+	font-size: 20px;
+	/* border: 1px solid black; */
+	padding-top: 5px;
+}
+
+#list1{
+	position: relative;
+	float: left;
+	width: 20%;
+	height: 100%;
+/* 	background: yellow; */
+}
+#list2{
+	position: relative;
+	float: left;
+	width: 20%;
+	height: 100%;
+}
+#a5{
+	
+}
+#t_mesg1{
+	position: relative;
+	height: 10%;
+}
+#t_mesg2{
+	position: relative;
+	float: left;
+	height: 90%;
+	width: 50%;
+}
+#t_mesg3{
+	position: relative;
+	height: 90%;
+	float: right;
+	width: 50%;
+	/* display: none;*/
+	/* background-image: url("../img/xgbackground.png"); */
+}
+#submit1{
+	margin-left: 120px;
+	margin-top: 10px;
+}
+#t_sea_stu1{
+	position: relative;
+	float: right;
+	width: 20%;
+	height: 100%;
+	margin-right: 200px;
+}
+#t_sea_stu2{
+	position: relative;
+	float: left;
+	width: 40%;
+	height: 100%;
+}
+#t_sea_stu3{
+	position: relative;
+	float: right;
+	width: 100%;
+	height: 90%;
+}
+#t_sea_inp1{
+	position: relative;
+	float: left;
+	width: 100%;
+	height:30%;
+}
+#t_sea_inp2{
+	position: relative;
+	float: left;
+	width: 100%;
+	height:50%;
+}
+/* #select1{
+	position: relative;
+	float: right;
+}
+#select2{
+	position: relative;
+	float: right;
+} */
+#t_s1{
+	position: relative;
+	float:left;
+}
+#t_s2{
+	position: relative;
+	float:left;
+}
+#t_s3{
+	position: relative;
+	float:left;
+}
+#t_s4{
+	position: relative;
+	float:left;
+}
+#t_s5{
+	position: relative;
+	float:right;
+	margin-top: 20px;
+	margin-right: 100px;
+}

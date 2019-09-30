@@ -1,0 +1,27 @@
+#header{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(185, 223, 248);
+}
+#title{
+    background-color: rgb(21, 180, 243);
+    height: 100px;
+    width: 10%;
+}
+#selection{
+    width: 10%;
+    height: 700px;
+    background-color: rgb(100, 104, 114);
+}
+
+.div1{
+    color: white;
+    text-align: center;
+    border: 1px solid balck;
+    width: 100%;
+    height: 50px;
+    /* border: 1px solid rgb(100, 104, 114); */
+    /* background-color: rgb(138, 132, 132); */
+}
+*{
+}
